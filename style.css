@@ -1,0 +1,111 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*აქ დაიწერა ნავბარი ბექგრაუნდის ფერი და ზომა */
+header{
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(15, 159, 10);
+    padding: 10px;
+}
+/*აქ წერია დაშორება ღილაკებს შორის */
+nav{
+    width: 100%;
+    height: 100%;
+}
+/*აქ წერია ტექსტის ფერი ლისტის ტაიპი და ტექსტის ქვემოთ ხაზის გაქრობა */
+a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*აქ წერია ლისტის ბორდერის ფერი და ზოგადად ლისტის პერები პოზიციები და ა.შ*/
+li{
+    border: solid black 2px;
+    list-style-type:none;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(13, 177, 192);
+    margin: 40px;
+    padding: 15px;
+    padding-left: 40px;
+    margin-left: 100px;
+}
+/*აქ წერია თრანზიშენის დრო ანუ გადასვლის სიჩქარე*/
+li:hover{
+    scale: 1.5;
+    transition: .5s;
+}
+/*აქ წერია lifeის ბერი და პოზიცია */
+span{
+    padding-left: 30px;
+    color: rgb(3, 5, 9);
+}
+
+/*აქ წერია ბეგგრაუნდ ფოტოს ზომა*/
+body{
+    background-image: url(goa_text_beckground.png);
+    background-repeat: no-repeat;
+    background-size:101vw 80vw;
+}
+table,td, th{
+    border: 1px solid rgba(12, 250, 12, 0.852);
+  }
+  
+  table {
+    margin: 50px;
+    color: white;
+    width: 500px;
+    border-collapse: collapse;
+   background-color:rgba(20, 169, 182, 0.256);
+  }
+  .tablecenter{
+    display:flex;
+    justify-content: center;
+  }
+  th{
+    padding: 10px;
+  }
+  td{
+    padding: 10px;
+    line-height: 5;
+  }
+  .goa{
+    margin-left: 500px;
+    font-size: 25px;
+    letter-spacing: 1cqb;
+    text-shadow: 3px 4px rgb(15, 133, 212);
+  }
+span2{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: black;
+    padding-left: 5px;
+}
+span3{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: black;
+    padding-left: 5px;
+}
+.button{
+    background-color: blueviolet;
+
+}
+.button1{
+    font-size: 25px;
+
+}
+.product{
+    font: size 25px;
+    margin-left: 350px;
+}
+p{
+    display: inline-block;
+    color: white;
+    margin-left: 350px;
+}
